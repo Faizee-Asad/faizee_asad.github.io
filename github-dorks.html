@@ -1,0 +1,407 @@
+  <html>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <head>
+  <meta content="text/html; charset=utf-8">
+  <meta name="author" content="Faizee Asad" />
+  <meta name="referrer" content="never">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet" type="text/css">
+  <script>
+    function shodan_it(type) 
+  {
+      
+      site = document.getElementById('target').value;                            
+      url = 'https://github.com/search?q=';
+      url = url + site + " " ;
+
+  switch(type)
+  {
+      case 1:
+          url += 'api_key';
+          break;
+      case 2:
+          url += 'app_AWS_SECRET_ACCESS_KEY ';
+          break
+      case 3:
+          url += 'app_secret';
+          break
+      case 4:
+          url += 'authoriztion';
+          break;
+      case 5:
+          url += 'Ldap ';
+          break;
+      case 6:
+          url += 'aws_access_key_id';
+          break;
+      case 7:
+          url += 'secret';
+          break;
+      case 8:
+          url += '.bash_history';
+          break;
+      case 9:
+          url += 'bashrc%20password';
+          break;
+    case 10:
+          url += 'beanstalkd.yml';
+          break;
+    case 11:
+          url += 'client secret';
+          break;
+    case 12:
+          url += 'composer.json';
+          break;
+    case 13:
+          url += 'config';
+          break;
+    case 14:
+          url += 'credentials';
+          break;
+    case 15:
+          url += 'DB_PASSWORD' ;
+          break;
+    case 16:
+          url += 'deploy.rake';
+          break;
+    case 17:
+          url += 'dotfiles' ;
+          break;
+      case 17.1:
+          url += '.env';
+    break;
+    case 18:
+          url += '.exs' ;
+          break;
+    case 19:
+          url += 'extension:json mongolab.com' ;
+          break;
+      case 20:
+          url += 'extension:pem%20private';
+          break;
+    case 21:
+          url +=  'extension:ppk private';
+          break;
+      case 22:
+          url +=  'extension:sql mysql dump';
+          break; 
+      case 23:
+          url +=  'extension:yaml mongolab.com' ;
+          break; 
+      case 24:
+          url += 'filename:.bash_history' ;
+          break;
+      case 25:
+          url += 'filename:.bash_profile aws' ;
+          break;
+      case 26:
+          url +=  'filename:.bashrc mailchimp' ;
+          break;
+      case 27:
+          url +=  'filename:CCCam.cfg' ;
+          break;
+      case 28:
+          url +=  'filename:config irc_pass' ;
+    break;
+      case 29:
+          url +=  'filename:config.php dbpasswd' ;
+          break; 
+      case 30:
+          url +=  'filename:config.json auths';
+          break; 
+      case 31:
+          url +=  'filename:config.php pass' ;
+          break;
+      case 32:
+          url +=  'filename:config.php dbpasswd';
+          break; 
+      case 33:
+          url +=  'filename:connections.xml' ;
+          break;
+      case 34:
+          url +=  'filename:.cshrc' ;
+          break;
+      case 35:
+          url +=  'filename:.git-credentials' ;
+          break; 
+      case 36:
+          url +=  'filename:.ftpconfig' ;
+          break;
+      case 37:
+          url +=  'filename:.history' ;
+          break;
+      case 38:
+          url +=  'filename:gitlab-recovery-codes.txt' ;
+          break;
+      case 39:
+          url +=  'filename:.htpasswd'  ;
+          break;
+      case 40:
+          url +=  'filename:id_rsa' ;
+          break;
+      case 41:
+          url +=  'filename:.netrc password' ;
+          break;
+      case 42:
+          url +=  'FTP' ;
+          break;
+      case 43:
+          url +=  'filename:wp-config.php' ;
+          break;
+      case 44:
+          url +=  'git-credentials' ;
+          break;
+      case 45:
+          url +=  'github_token' ;
+          break;
+      case 46:
+          url +=  'HEROKU_API_KEY language:json' ;
+          break;
+      case 47:
+          url +=  'HEROKU_API_KEY language:shell' ;
+          break;
+      case 48:
+          url +=  'HOMEBREW_GITHUB_API_TOKEN language:shell' ;
+          break;
+      case 49:
+          url +=  '.mlab.com password' ;
+          break;
+      case 50:
+          url +=  'mysql' ;
+          break;
+      case 51:
+          url +=  'npmrc%20_auth' ;
+          break;
+      case 52:
+          url +=  'oauth' ;
+          break;
+      case 53:
+          url +=  'OTP' ;
+          break;
+      case 54:
+          url +=  'pass' ;
+          break;
+      case 55:
+          url +=  'passkey' ;
+          break;
+      case 56:
+          url +=  'passwd' ;
+          break;
+      case 57:
+          url +=  'password' ;
+          break;
+      case 58:
+          url +=  'databases password' ;
+          break;
+      case 59:
+          url +=  'rds.amazonaws.com password' ;
+    break;
+      case 60:
+          url +=  's3cfg' ;
+          break;       
+      case 61:
+          url +=  'send_key-keys' ;
+          break;
+      case 62:
+          url +=  'token' ;
+          break;
+      case 63:
+          url +=  '[WFClient] Password= extension:ica' ;
+          break;
+      case 64:
+          url +=  'xoxp%20OR%20xoxb%20OR%20xoxaJenkins' ;
+          break;
+      case 65:
+          url +=  'security_credentials' ;
+          break;
+  }
+      window.open(url);
+
+  }
+
+  </script>
+  <style>
+  body {
+    background-image: url(https://pbs.twimg.com/profile_images/1555300876172263424/tzRZFF6g_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  	color:rgb(255, 255, 255);
+  	font-size: 16pt;
+      font-family:"Merienda One";
+  	font-weight: bold;
+  	padding: 0px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .row {
+    padding: 30px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+  }
+
+  a {
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+  }
+  a:hover {
+  color:#d04834;
+  }
+  hr {border: 2;width: 50%;}
+
+  input{
+  	overflow: hidden;
+  	color:#FFF;
+          background: transparent;
+  	border-radius:5px;
+  	-moz-border-radius:5px;
+  	-webkit-border-radius:5px;
+  	border: 1px solid;
+  	font-family:Arial,sans-serif;
+  	font-size:16px;
+  	font-weight:700;
+  	height:32px;
+  	padding:4px 16px;
+  }
+  </style>
+  </head><body>
+  <script>
+      function check_submit(e) {
+          if (e && e.keyCode == 13 && e.target.type != 'textarea') {
+              e.preventDefault();
+              e.defaultPrevented = true;
+
+              if($('#tool-form').valid() == true) {
+                  if ($('#security-check').is(':visible') == true) {
+                      document.getElementById('tool-form').submit();
+              }
+          }
+      }
+  	}
+  </script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','../www.google-analytics.com/analytics.js','ga');    
+
+    ga('create', 'UA-100953906-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+  <div id="particles-js">
+  <div style="font-family: Merienda One;text-align: center;font-size: 70pt;text-shadow: 0 0 6px #4a2aa8, 0 0 5px #4e1e9c, 0 0 5px #1f10a7;color: #FFF">Github Dork<br></div><br/>
+  <div style="font-family: Merienda One;text-align: center;font-size: 24pt;text-shadow: 0 0 6px #4a2aa8, 0 0 5px #4a2aa8, 0 0 5px #4a2aa8;color: #FFF">by Faizee Asad<br></div><br/>
+          
+  <div style="text-align: center;"><b>Target Domain :) type org:target or "site"</b><br><br>
+
+  <input id="target" name="target" placeholder='"site" or org:target' autofocus="" type="text"><br/></div>
+
+  <div class="row">
+    <div class="column"><div style="text-align: center;">
+      <div style="display: inline-block; text-align: left;">
+  &#128269; <a href="#" onclick="shodan_it(1)">api_key</a><br/>  
+  &#128269; <a href="#" onclick="shodan_it(2)">app_AWS_SECRET_ACCESS_KEY </a><br/>
+  &#128269; <a href="#" onclick="shodan_it(3)">app_secret</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(4)">authoriztion</a><br/>	
+  &#128269; <a href="#" onclick="shodan_it(5)">Ldap</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(6)">aws_access_key_id</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(7)">secret</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(8)">bash_history</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(9)">bashrc%20password</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(10)">beanstalkd</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(11)">client secre</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(12)">composer</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(13)">config</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(14)">credentials</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(15)">DB_PASSWORD</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(16)">dotfiles</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(17)">.env file</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(17.1)">.exs file</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(18)">extension:json mongolab.com</a> <br/>
+  &#128269; <a href="#" onclick="shodan_it(19)">extension:pem%20private</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(21)">extension:ppk private</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(22)">extension:sql mysql dump</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(23)">extension:yaml mongolab.com</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(49)">.mlab.com password</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(50)">mysql</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(51)">npmrc%20_auth</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(57)">passwd</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(55)">passkey</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(59)">rds.amazonaws.com password</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(60)">s3cfg</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(61)">send_key</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(62)">token</a><br/> 
+
+
+  </div></div></div>
+  <div class="column"><div style="text-align: center;">
+      <div style="display: inline-block; text-align: left;">
+  &#128269; <a href="#" onclick="shodan_it(24)">filename:.bash_history</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(25)">filename:.bash_profile aws</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(26)">filename:.bashrc mailchimp</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(27)">filename:CCCam.cfg</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(28)">filename:config irc_pass</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(29)">filename:config.php dbpasswd</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(30)">filename:config.json auths</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(31)">filename:config.php pass</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(32)">filename:config.php dbpasswd</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(33)">filename:connections.xml</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(34)">filename:.cshrc</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(35)">filename:.git-credentials</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(36)">filename:.ftpconfig</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(37)">filename:.history</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(38)">filename:gitlab-recovery-codes.txt</a><br>
+  &#128269; <a href="#" onclick="shodan_it(39)">filename:.htpasswd</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(40)">filename:id_rsa</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(41)">filename:.netrc password</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(42)">FTP</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(43)">filename:wp-config.php</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(44)">git-credentials</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(45)">github_token</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(46)">HEROKU_API_KEY language:json</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(47)">HEROKU_API_KEY language:shell</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(48)">GITHUB_API_TOKEN language:shell</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(52)">oauth</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(53)">OTP</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(58)">databases password</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(63)">[WFClient] Password= extension:ica</a><br/> 
+  &#128269; <a href="#" onclick="shodan_it(64)">xoxa_Jenkins</a><br/>
+  &#128269; <a href="#" onclick="shodan_it(65)">security_credentials</a><br/> 
+  </div>
+    </div>
+    </div>
+  </div>
+  </div></div>
+  <div style="clear: both;"></div>
+  <hr>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.js'></script>
+  <br/><div style="font-family: Merienda One;text-align: center;padding: 7px 0;font-size:20px;">by Faizee Asad; thank to faisalahmed and Mr.Koanti</div></div>
+  </body>
+  </html>  
