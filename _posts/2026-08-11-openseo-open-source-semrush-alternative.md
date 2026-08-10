@@ -4,7 +4,7 @@ layout: post
 title: "OpenSEO: The Open-Source Semrush Alternative Starting at $10/Month"
 description: "Discover OpenSEO, an open-source Semrush and Ahrefs alternative for keyword research, rank tracking, backlinks, site audits, competitor analysis, and AI SEO workflows. Learn how to self-host it with Docker and connect SEO data to AI agents through MCP."
 
-date: 2026-08-11 03:10:00 +0530
+date: 2026-08-10 03:10:00 +0530
 author: Asad Faizee
 
 categories:
